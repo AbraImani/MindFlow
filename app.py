@@ -193,8 +193,8 @@ def critic_agent(task, plan, execution_result):
 
 # --- Interface Streamlit ---
 
-st.title("🤖 Système Multi-Agents avec Gemini 1.5 Flash")
-st.markdown("Cette application utilise une chaîne d'agents IA (Planner, Executor, Critic) pour traiter des tâches complexes.")
+st.title("🤖 MindFlow un simple système multi-agents")
+st.markdown("Un système multi-agents inspiré du raisonnement humain, composé d'un Planner, d'un Executor et d'un Critic. Chaque agent a un rôle précis et coopère pour résoudre des tâches complexes avec rigueur, créactivité et évaluation critique. MindFlow incarne la coordination intelligente et la décomposition logique.")
 
 # --- Barre latérale pour la configuration et l'état de l'API ---
 api_key = os.getenv("GOOGLE_API_KEY")
